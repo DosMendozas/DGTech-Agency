@@ -1,7 +1,7 @@
 { 
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
-  "homepage": "https://ton-user.github.io/mon-projet-react",
+  "homepage": "https://DosMendozas.github.io/DGTech-Agency",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -9,9 +9,9 @@
 
   "scripts": {
   "start": "react-scripts start",
-  "build": "react-scripts build",
+  "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d dist",
 
   
 
